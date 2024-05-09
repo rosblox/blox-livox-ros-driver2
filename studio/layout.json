@@ -1,0 +1,61 @@
+{
+  "configById": {
+    "3D!dv2yb2": {
+      "cameraState": {
+        "perspective": true,
+        "distance": 9.26582460318909,
+        "phi": 62.25281602002481,
+        "thetaOffset": -105.48811013767707,
+        "targetOffset": [
+          -2.73720144334125,
+          -0.1867553310187723,
+          -9.08552331640037e-18
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {
+        "/rslidar_points": {
+          "visible": true,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        }
+      },
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {}
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "linkedGlobalVariables": [],
+  "playbackConfig": {
+    "speed": 1,
+    "messageOrder": "receiveTime"
+  },
+  "layout": "3D!dv2yb2"
+}
